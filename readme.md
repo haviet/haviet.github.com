@@ -1,12 +1,8 @@
-Dùng [Jekyll] để làm static trước.
+Đã clone một bản trên iMac: `~/haviet.github.com`
 
-Sau khi hoàn thiện sẽ đóng gói hoặc chuyển sang dùng CMS tùy theo yêu cầu.
-
-##Việc cần làm:
-- Thiết lập [Jekyll] cho repo này.
+##Working:
 - Basic index.html layout: http://haviet.github.io/static/
 - Design: http://nikenhn.weblogs.us/haviet/
-- css & js folder
 
 ##Tools:
 - [placehold.it](http://placehold.it) - đặt tạm hình ảnh vào trang web.
@@ -14,4 +10,3 @@ Sau khi hoàn thiện sẽ đóng gói hoặc chuyển sang dùng CMS tùy theo 
 - [Background patterns](http://subtlepatterns.com/) - chọn pattern (seamless) cho background
 - [normalize css](https://github.com/xabeng/normalize.css) - reset css.
 
-[Jekyll]: http://www.jekyllrb.com
