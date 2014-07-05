@@ -4,7 +4,7 @@ Sau khi hoàn thiện sẽ đóng gói hoặc chuyển sang dùng CMS tùy theo 
 
 ##Việc cần làm:
 - Thiết lập [Jekyll] cho repo này.
-- Basic index.html layout
+- Basic index.html layout: http://haviet.github.io/static/
 - css & js folder
 
 [Jekyll]: http://www.jekyllrb.com
