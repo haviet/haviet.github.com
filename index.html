@@ -1,48 +1,20 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Haviet.github.com : trang web nháp của cty" />
+<div class="home">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+  <h1>Posts</h1>
 
-    <title>Haviet.github.com</title>
-  </head>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 
-  <body>
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/haviet">View on GitHub</a>
-
-          <h1 id="project_title">Haviet.github.com</h1>
-          <h2 id="project_tagline">trang web nháp của cty</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>Dùng <a href="http://www.jekyllrb.com">Jekyll</a> để làm static trước.</p>
-
-<p>Site mẫu ở đây: <a href="http://nikenhn.weblogs.us/haviet/">http://nikenhn.weblogs.us/haviet/</a></p>
-
-<p>Sau khi hoàn thiện sẽ đóng gói hoặc chuyển sang dùng CMS tùy theo yêu cầu.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+</div>
