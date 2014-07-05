@@ -8,7 +8,8 @@ a {text-decoration:none;}
 #main-menu {width:100%; height:3em; overflow: hidden; display:table; border-collapse:collapse; border:none;}
 .top-menu {display:table-row; list-style:none; text-align:center;}
 .top-menu-list {display:table-cell; width:10em;}
-.top-menu-list a {display:block; padding:1em;}
+.top-menu-list a {display:block; padding:1em; background:#088A08; color:#fff;}
+.top-menu-list a:hover {background:#04B404;}
 
 
 
