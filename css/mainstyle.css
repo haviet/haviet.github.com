@@ -5,5 +5,10 @@ a {text-decoration:none;}
 
 #header {height:10em; background:#0B3B0B; color:#fff;}
 
+#main-menu {height:2em; overflow:hiden;}
+.top-menu {list-style:none;}
+.top-menu a {color:#fff;}
+.top-menu-list a {display:inline-block; padding:1em;}
+
 
 #footer {background:#0B3B0B; color:#fff; font-size:80%; padding:1em 3em;}
