@@ -2,7 +2,7 @@ body {background: #555 url('http://subtlepatterns.com/patterns/kindajean.png');}
 a {text-decoration: none;}
 .tgreen {color:#0B610B;}
 .tbig {font-size:1.5em;}
-.tcenter {text-align: center;}
+.tcenter {text-align: center;} .tright {text-align: right;}
 .left {float: left;} .right {float: right;}
 .bigone {width: 500px; overflow: hidden;}
 .smallone {width: 460px; overflow: hidden;}
@@ -19,5 +19,14 @@ li.top-menu-item a:hover {background: #ccc; }
 div.bigone article, div.smallone article {padding: 0 2em;}
 div.main-page button { padding: 1em 2em; background:#DF7401; color: #fff; border: none; font-size: 80%;}
 div.main-page button:hover {background: #FE9A2E;}
+article.sidebar img {padding: 1em 0 0 1em;}
 
+div.big-list {width: 100%; display: table; border-collapse: collapse; border: none;}
+ul.prd-big-list {display: table-row; text-align: center;}
+li.prd-big-list-item {display: table-cell; padding-top: 1em;}
+li.prd-big-list-item:first-child {text-align: left;}
+li.prd-big-list-item:last-child {text-align: right;}
+
+section.closingline {background: #ddd; padding: 2em;}
+div.small-column {width: 14em; font-size: 90%;}
 footer.site-footer {background: #aaa; color: #fff; font-size: 80%; padding: 1em 2em; }
