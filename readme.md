@@ -1,7 +1,6 @@
 Đã clone một bản trên iMac: `~/haviet.github.com`
 
 ##Working:
-- Basic index.html layout: http://haviet.github.io/static/
 - Design: http://nikenhn.weblogs.us/haviet/
 
 ##Tools:
