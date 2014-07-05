@@ -2,19 +2,24 @@
 layout: default
 ---
 
-<div class="home">
+<div class="big-slideshow slideshow"><img src="http://placehold.it/960x350" /></div>
 
-  <h1>Posts</h1>
+<div class="intro tbig tgreen tcenter">
+  <p>Mot doan gioi thieu ngan ve cong ty Haviet, <br>khoang hai dong tom tat... </p>
+</div>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+{% include home-billboard.html %}
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+{% include home-dpc.html %}
 
+{% include home-shelter.html %}
+
+{% include home-cotquay.html %}
+
+{% include home-kiosk.html %}
+
+{% include home-others.html %}
+
+<div class="tbig tgreen tcenter">
+  <p>Gần hai mươi năm hoạt động trong lĩnh vực quảng cáo,<br>Công ty Hà Việt luôn được khách hàng tin tưởng và đánh giá cao...</p>
 </div>
