@@ -1,2 +1,6 @@
 body {background: #555 url('http://subtlepatterns.com/patterns/noisy_net.png');}
-#page {width:960px; overflow:hidden; margin:2em auto;}
+a {text-decoration:none;}
+
+#page {width:960px; overflow:hidden; margin:2em auto; background: #fff;}
+
+#header {height:5em; background:##0B3B0B; color:#fff;}
