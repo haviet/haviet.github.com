@@ -1,3 +1,5 @@
+#Tạm dừng, chuyển sang repo khác.
+
 Đã clone một bản trên iMac: `~/haviet.github.com`
 
 ##Working:
