@@ -2,7 +2,7 @@
 layout: page
 title: Biển trên dải phân cách
 tags: navdropdown
-permalink: haviet-lightbox/
+permalink: haviet-product-lightbox/
 tt: 4
 ---
 
@@ -14,6 +14,163 @@ tt: 4
 
 <div class="content">
 <div class="container">
-  <p class="lead">{{ page.title }}</p>
+
+<!-- ========================================================== Ba Đình ====================== -->
+	<h3>Quận Ba Đình</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Ba Đình" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+<!-- ========================================================== Đống Đa ====================== -->
+	<h3>Quận Đống Đa</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Đống Đa" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+<!-- ========================================================== Cầu Giấy ====================== -->
+	<h3>Quận Cầu Giấy</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Cầu Giấy" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+<!-- ========================================================== Tây Hồ ====================== -->
+	<h3>Quận Tây Hồ</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Tây Hồ" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+<!-- ========================================================== Thanh Xuân ====================== -->
+	<h3>Quận Thanh Xuân</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Thanh Xuân" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+<!-- ========================================================== Từ Liêm ====================== -->
+	<h3>Quận Từ Liêm</h3>
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr>
+				<th class="col-sm-2">codename</th>
+				<th class="col-sm-2">Street</th>
+				<th>Description</th>
+				<th class="col-sm-2">size</th>
+			</tr>
+		</thead>
+		
+		<tbody>
+			{% for lbx in site.data.lightbox %}
+			{% if lbx.district == "Từ Liêm" %}
+			<tr>
+				<td>{{ lbx.codename }}</td>
+				<td>{{ lbx.street }}</td>
+				<td>{{ lbx.description }}</td>
+				<td>{{ lbx.sizew }}m x {{ lbx.sizeh }}m</td>
+			</tr>
+			{% endif %}
+			{% endfor %}
+		</tbody>	
+	</table>
+
+
 </div>
 </div>
