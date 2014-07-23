@@ -1,2 +1,5 @@
 /* for customizing css */
-body {background:#eee;padding:5em 0;}
+body {background:#eee;}
+.header {background:#aaa; padding:7em 0 3em; }
+.page-slideshow { background:#fff; height:450px; }
+.prd-slideshow { background:#fff; height:250px; }
