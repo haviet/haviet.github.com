@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-<!-- phần định nghĩa trên đầu trang index.html ở thư mục gốc gọi đến layout này. -->
-<!-- tất cả các nội dung có trong thư mục _includes đều có thể gọi từ bất kỳ đâu mà không cần xác định đường dẫn -->
 
   {% include head.html %}
 
@@ -9,11 +7,11 @@
 
     {% include header.html %}
 
-    
-
-     <!-- hiển thị nội dung của trang xác định dùng layout này -->
-     {{ content }}
-
+    <div class="page-content">
+      <div class="wrap">
+      {{ content }}
+      </div>
+    </div>
 
     {% include footer.html %}
 
