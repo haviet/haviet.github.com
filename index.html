@@ -5,6 +5,7 @@ layout: default
 <div class="header">
 <div class="container">
   {% include slideshow_home.html %}
+  <div style="height:5px; background:#88af19;"></div>
 </div>
 </div>
 
@@ -12,20 +13,24 @@ layout: default
 <div class="rowfirst">
   <div class="container">
     <div class="row">
-    <div class="col-sm-4">
-      <div class="logo hidden-xs">
-        <img src="{{ site.imgs | prepend: site.baseurl }}/hv02.svg" />
-      </div>
-    </div>
+    <div class="shadow"><img src="{{ site.imgs | prepend: site.baseurl }}/shadow.png" /></div>
+
     <div class="col-sm-8">
       <div class="jumbo">
         <!-- <img src="{{ site.imgs | prepend: site.baseurl }}/rf-slogan.svg" /> -->
         <h4 class="text-center visible-xs">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h4>
-        <h3 class="text-right visible-sm">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h3>
-        <h2 class="text-right visible-md">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h2>
-        <h1 class="text-right visible-lg">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h1>
+        <h3 class="visible-sm">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h3>
+        <h2 class="visible-md">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h2>
+        <h1 class="visible-lg">Can mot doan khau hieu cho nay.<br>Haviet co chua? Neu chua thi lam ngay di.</h1>
       </div>
     </div>
+
+    <div class="col-sm-4">
+      <div class="logo hidden-xs text-right">
+        <img src="{{ site.imgs | prepend: site.baseurl }}/hv02.svg" />
+      </div>
+    </div>
+
   </div>
   </div>
 </div>

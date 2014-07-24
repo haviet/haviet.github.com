@@ -1,10 +1,13 @@
 /* for customizing css */
 body {background:#eee;}
-.header {background:#fefefe url('images/bg.png'); padding:7em 0 3em; }
+.header {background: #000 url('images/header-bg.jpg') no-repeat center top;; padding:8em 0 0em; } /* #fefefe url('images/bg.png');  */
 .page-slideshow { background:#fff; height:450px; }
 .prd-slideshow { background:#fff; height:250px; }
+.headimg { width: 100%; }
 
-.rowfirst { background: #336601; padding: 3em 0; color:#fff; }
+.rowfirst { background: #336601; color:#fff; padding-bottom: 5em; }
+.shadow { height: 3em; margin-bottom: 2em; width: 100%; overflow: hidden; }
+.shadow img { position: relative; left:50%; margin-left:-370px; }
 .logo img { width: 50%; }
 .jumbo img { width: 100%; }
 .rowsecond { height: 300px; background: #dfdfcb; }
