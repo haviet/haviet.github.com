@@ -1,0 +1,178 @@
+[
+  {
+    "codename":"CG-11",
+    "name":"Biển Hồ Tùng Mậu",
+    "location":"Cầu Giấy",
+    "description":"Ngã tư Hồ Tùng Mậu - Lê Đức Thọ",
+    "sizew":13.5,
+    "sizeh":6.4,
+    "faces":2,
+    "available":"no",
+    "duedate":"5/2015"
+  },
+  {
+    "codename":"CG-12",
+    "name":"Biển Yên Hoà",
+    "location":"Cầu Giấy",
+    "description":"Tường rào nhà văn hóa phường Yên Hòa, đường Trần Thái Tông",
+    "sizew":10.0,
+    "sizeh":6.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"5/2016"
+  },
+  {
+    "codename":"BXMĐ2",
+    "name":"Biển bến xe Mỹ Đình",
+    "location":"Cầu Giấy",
+    "description":"Bến xe Mỹ đình II",
+    "sizew":10.0,
+    "sizeh":6.0,
+    "faces":2,
+    "available":"yes",
+    "duedate":"none"
+  },
+  {
+    "codename":"CB-1A",
+    "name":"Biển Cổ Bi 1A",
+    "location":"Cổ Bi",
+    "description":"Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, Hà Nội",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"5/2016"
+  },
+  {
+    "codename":"CB-2A",
+    "name":"Biển Cổ Bi 2A",
+    "location":"Cổ Bi",
+    "description":"Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, Hà Nội",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"3/2015"
+  },
+  {
+    "codename":"CB-5A",
+    "name":"Biển Cổ Bi 5A",
+    "location":"Cổ Bi",
+    "description":"Trục quốc lộ 1A thuộc xã Cổ Bi, Gia Lâm, Hà Nội",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"2/2015"
+  },
+  {
+    "codename":"HBT-01",
+    "name":"Biển Trần Đại Nghĩa",
+    "location":"Hai Bà Trưng",
+    "description":"Ngã ba Đại Cồ Việt - Trần Khát Chân",
+    "sizew":10.0,
+    "sizeh":6.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"7/2016"
+  },
+  {
+    "codename":"HQV",
+    "name":"Biển Hoàng Quốc Việt",
+    "location":"Cầu Giấy",
+    "description":"Nằm trên DPC giữa đường HQV, đối diện trường cao đẳng Du lịch Hà Nội",
+    "sizew":8.0,
+    "sizeh":4.5,
+    "faces":2,
+    "available":"no",
+    "duedate":"12/2014"
+  },
+  {
+    "codename":"HM-01A",
+    "name":"Biển Hoàng Mai",
+    "location":"Hoàng Mai",
+    "description":"Đầu ngã ba Pháp Vân – Cầu Rẽ",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"yes",
+    "duedate":"none"
+  },
+  {
+    "codename":"HM-02B",
+    "name":"Biển Cầu Thanh Trì",
+    "location":"Hoàng Mai",
+    "description":"Trục Cầu Thanh Trì",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"1/2015"
+  },
+  {
+    "codename":"53B",
+    "name":"Biển Kim Chung",
+    "location":"Kim Chung",
+    "description":"Cột mốc giao thông H6/2-40m trục cao tốc TL-NB, Xã Kim Chung, huyện Đông Anh, Hà Nội.",
+    "sizew":19.5,
+    "sizeh":6.5,
+    "faces":2,
+    "available":"yes",
+    "duedate":"none"
+  },
+  {
+    "codename":"LB-02",
+    "name":"Biển Long Biên 02",
+    "location":"Long Biên",
+    "description":"Khu vực vòng xoay Gia Lâm, Long Biên, Hà Nội",
+    "sizew":11.5,
+    "sizeh":6.5,
+    "faces":2,
+    "available":"no",
+    "duedate":"12/2014"
+  },
+  {
+    "codename":"16B",
+    "name":"Biển Phúc Lợi",
+    "location":"Long Biên",
+    "description":"Gần trạm soát vé QL1A, phường Phúc Lợi, Long Biên, HN",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"yes",
+    "duedate":"none"
+  },
+  {
+    "codename":"34B",
+    "name":"Biển Nam Hồng",
+    "location":"Nam Hồng",
+    "description":"Cột mốc giao thông H8/6-10m trục cao tốc TL-NB, Xã Nam Hồng, huyện Đông Anh, Hà Nội.",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"yes",
+    "duedate":"none"
+  },
+  {
+    "codename":"34A",
+    "name":"Biển Sóc Sơn",
+    "location":"Thanh Xuân",
+    "description":"Cột mốc giao thông H4/11 trục cao tốc TL-NB, Xã Thanh Xuân, huyện Sóc Sơn, Hà Nội.",
+    "sizew":15.0,
+    "sizeh":8.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"11/2015"
+  },
+  {
+    "codename":"QL32",
+    "name":"Biển Đường 32",
+    "location":"Từ Liêm",
+    "description":"Gần trường ĐH Công nghiệp Hà Nội",
+    "sizew":8.0,
+    "sizeh":5.0,
+    "faces":2,
+    "available":"no",
+    "duedate":"12/2015"
+  }
+]
