@@ -1,0 +1,40 @@
+<footer class="site-footer">
+<div class="row">
+	<div class="small-12 medium-4 columns">
+		<p class="copyright">&copy; 2014 - Havico Corporation</p>
+	</div>
+
+	<div class="show-for-medium-up medium-8 columns">
+		<ul class="inline-list right footer-links">
+			<li><a href="{{ site.baseurl }}/#top"><i class="fa fa-home fa-lg"></i> Home</a></li>
+			<li><a href="{{ site.baseurl }}/#sanpham"><i class="fa fa-info-circle fa-lg"></i> Products List</a></li>
+			<li><a href="{{ site.baseurl }}/"><i class="fa fa-envelope"></i> Contact</a></li>
+		</ul>
+	</div>
+
+</div>
+</footer>
+
+<script src="{{ site.baseurl }}/foundation/js/vendor/jquery.js"></script>
+<script src="{{ site.baseurl }}/foundation/js/foundation.min.js"></script>
+<script>
+  $(document).foundation();
+</script>
+
+<!-- +++++++++++++++++ for smooth scrolling +++++++++++++++ -->
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>

@@ -1,16 +1,51 @@
 ---
-layout: default
+layout: home
 ---
+    
+<section class="row-alpha">
+	
+	{% include home-alpha.html %}
 
-<div class="header">
+</section>
 
-  {% include slideshow_home.html %}
+<section class="row-beta">
+	<div class="row text-center">
+		<img style="width:150px;" src="{{ site.baseurl }}/foundation/img/hv01.svg"><br><br><br>
+		<h3>Hợp tác luôn là phương châm làm việc của chúng tôi</h3>
+		<p>Mot doan gioi thieu ngan gon ve cong ty haviet...</p>
+	</div>
+</section>
 
-</div>
+<section class="row-gamma">
+	<a name="gioithieu"></a>
+	{% include home-gamma.html %}
+	<br><br>
+	<p class="text-center"><a href="#top"><small>Back to Top</small></a></p>
+</section>
 
+<section class="row-delta">
+	<a name="sanpham"></a>
+	<p class="text-center lead" style="color:#555;">Các sản phẩm đang kinh doanh</p><br><br><br>
+	{% include home-delta.html %}
+	<br><br>
+	<p class="text-center"><a href="#top"><small>Back to Top</small></a></p>
+</section>
 
-{% include home-row-01.html %}
-{% include home-row-02.html %}
-{% include home-row-03.html %}
-{% include home-row-04.html %}
-{% include home-row-05.html %}
+<section class="row-epsilon">
+	<a name="dichvu"></a>
+	{% include home-epsilon.html %}
+
+</section>
+
+<section class="row-zeta">
+	
+	{% include home-zeta.html %}
+
+</section>
+
+<section class="row-eta">
+	<a name="lienhe"></a>
+	{% include home-eta.html %}
+
+</section>
+

@@ -1,0 +1,16 @@
+<header class="site-header">
+	<div class="row">
+		<div class="columns">
+			
+			<ul class="button-group">
+				<li><a href="{{ site.baseurl }}/" class="button">Trang chủ</a></li>
+			{% for page in site.pages %}
+			{% if page.tags == "topnav" %}
+			  <li><a href="{{ site.baseurl }}{{ page.url }}" class="button">{{ page.title }}</a></li>
+			{% endif %}
+			{% endfor %}
+			</ul>
+			
+		</div>
+	</div>
+</header>

@@ -1,0 +1,55 @@
+<div class="row homepage-header show-for-medium-up">
+	<div class="slideshow-home-content">
+		<ul class="slideshow-content text-center" data-orbit data-options="slide_number:false; bullets:false;pause_on_hover:false;"> 
+			<li data-orbit-slide="headline-1"> 
+				<div> 
+					<h2>Event darkest hour only has 60 minutes</h2>
+					<h3>so why worry now?</h3>
+					<img src="{{ site.baseurl }}/foundation/img/h1-01.svg">
+				</div> 
+			</li>
+			
+			<li data-orbit-slide="headline-2">
+				<div>
+					<h2>You can't save people,</h2>
+					<h3>you just can love them</h3>
+					<img src="{{ site.baseurl }}/foundation/img/h1-02.svg">
+				</div>
+			</li>
+			
+			<li data-orbit-slide="headline-3">
+				<div> 
+					<h2>Don't be afraid to fail.</h2> 
+					<h3>Be afraid not to try.</h3>
+					<img src="{{ site.baseurl }}/foundation/img/h1-03.svg">
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="home-nav">
+		<div class="medium-4 columns">
+			<h1><a href="{{ site.baseurl }}/"><img class="home-logo" src="{{ site.baseurl }}/foundation/img/hv01.svg"> Havico Corp.</a></h1>
+		</div>
+		<div class="medium-8 columns clear-fix" >
+			<ul class="inline-list right home-menu">
+				<li><a href="#gioithieu">Giới thiệu <i class="fa fa-comment"></i></a></li>
+				<li><a href="#lienhe">Liên hệ <i class="fa fa-envelope"></i></a></li>
+				<li><a href="#dichvu">Dịch vụ <i class="fa fa-briefcase"></i></a></li>
+				<li>
+
+					<a href="#" data-reveal-id="myModal">Sản phẩm tiêu biểu <i class="fa fa-photo"></i></a>
+					<div id="myModal" class="reveal-modal text-center" data-reveal>
+						{% include home-delta.html %}
+						<a class="button round" href="http://haviet.github.io/database/">Xem danh sách tất cả sản phẩm</a>
+						<a class="close-reveal-modal">&#215;</a>
+					</div>
+
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row show-for-small-only">
+	<img src="http://placehold.it/640x480">
+</div>

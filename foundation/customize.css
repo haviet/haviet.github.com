@@ -1,0 +1,51 @@
+html { 
+	background: url('img/sitebg2.jpg') no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+
+section.row-alpha { background:#333 url('img/hbg1.jpg') no-repeat center center; }
+.homepage-header { height:650px; position: relative; }
+.homepage-header h1, .homepage-header h2, .homepage-header h3  { color:#fff; }
+.slideshow-home-content { width:100%; position:absolute; bottom:0px; left:0px; }
+.home-logo { width:60px; }
+.home-nav { width:100%; position:absolute; top:30px; left:0px; }
+.home-nav h1 { font-size:18px; }
+.home-nav  a { color:#fff; }
+.home-menu { margin-top: 24px; font-size:14px; }
+
+section.row-beta { background:#0f5959; padding:5em 0 8em; color:#fff; }
+.row-beta h3 { color:#ffcc00; }
+
+
+
+section.row-gamma { background:#fff; padding:5em 0; color:#aaa; }
+.row-gamma li img { background:#eee; }
+
+
+
+section.row-delta { background:#eee; padding:7em 0 5em; }
+.row-delta .splist-caption { background:#fff; padding:1em; }
+
+
+section.row-epsilon { background: rgba(255,150,0,0.8); }
+.row-epsilon  h1 { color:#fff; }
+.dvlist p { font-size:14px; }
+.dvlist img { width:60%; }
+.shdown { height:100px; background: url('img/shdown.png') repeat-x top left; }
+.shup { height:60px; background: url('img/shup.png') repeat-x bottom left; }
+
+section.row-zeta { background:#ddffdd; padding: 5em 0 3em; }
+
+
+
+section.row-eta { background: rgba(0,0,0,0.8); padding: 5em 0 3em; color:#fff; }
+.row-eta .homepull { padding: 2em; border: 1px solid #ffcc00; color: #ffcc00; font-size: 18px; }
+
+footer { background: #0f5959; padding: 2em 0; color: #17a697; }
+.site-footer p, .footer-links { font-size: 12px; }
+.footer-links a { color: #17a697; }
+.footer-links a:hover { color: #fff; }
