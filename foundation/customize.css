@@ -52,6 +52,7 @@ section.row-zeta { background:#ddffdd; padding: 5em 0 3em; }
 
 section.row-eta { background: rgba(0,0,0,0.8); padding: 5em 0 3em; color:#fff; }
 .row-eta .homepull { padding: 2em; border: 1px solid #ffcc00; color: #ffcc00; font-size: 18px; }
+.cticon { color:#0f5959; }
 
 footer { background: #0f5959; padding: 2em 0; color: #17a697; }
 .site-footer p, .footer-links { font-size: 12px; }
@@ -66,4 +67,8 @@ height: 1px;
 overflow: hidden;
 position: absolute;
 width: 1px;
+}
+
+.reveal-modal {
+top:3em;
 }
