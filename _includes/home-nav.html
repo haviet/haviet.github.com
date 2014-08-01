@@ -1,0 +1,22 @@
+<div class="home-nav">
+	<div class="medium-4 columns">
+		<h1><a href="{{ site.baseurl }}/"><img class="home-logo" src="{{ site.baseurl }}/foundation/img/hv01.svg"> Havico Corp.</a></h1>
+	</div>
+	<div class="medium-8 columns clear-fix" >
+		<ul class="inline-list right home-menu">
+			<li><a href="#gioithieu">Giới thiệu <i class="fa fa-comment"></i></a></li>
+			<li><a href="#lienhe">Liên hệ <i class="fa fa-envelope"></i></a></li>
+			<li><a href="#dichvu">Dịch vụ <i class="fa fa-briefcase"></i></a></li>
+			<li>
+
+				<a href="#" data-reveal-id="myModal">Sản phẩm tiêu biểu <i class="fa fa-photo"></i></a>
+				<div id="myModal" class="reveal-modal text-center" data-reveal>
+					{% include home-delta.html %}
+					<a class="button round" href="http://haviet.github.io/database/">Xem danh sách tất cả sản phẩm</a>
+					<a class="close-reveal-modal">&#215;</a>
+				</div>
+
+			</li>
+		</ul>
+	</div>
+</div>

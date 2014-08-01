@@ -4,15 +4,23 @@ html {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	z-index:-99;
 }
+body { z-index:-9; }
 
 
-section.row-alpha { background:#333 url('img/hbg2.jpg') no-repeat center center; }
-.homepage-header { height:650px; position: relative; }
+
+section.row-alpha { }
+.slideshow-outer { width:100%; height:550px; z-index:-1; }
+.obg {width:100%; height:550px;}
+.obg1 { background: url('img/hbg1.jpg') no-repeat center center; }
+.obg1 { background: url('img/hbg2.jpg') no-repeat center center; }
+
+.homepage-header { height:550px; position:relative; margin-top:-550px; }
 .homepage-header h1, .homepage-header h2, .homepage-header h3  { color:#fff; }
-.slideshow-home-content { width:100%; position:absolute; bottom:0px; left:0px; }
+.slideshow-inner { width:100%; position:absolute; bottom:0px; left:0px; }
 .home-logo { width:60px; }
-.home-nav { width:100%; position:absolute; top:30px; left:0px; }
+.home-nav { width:100%; position:relative; top:20px; }
 .home-nav h1 { font-size:18px; }
 .home-nav  a { color:#fff; }
 .home-menu { margin-top: 24px; font-size:14px; }
@@ -49,3 +57,13 @@ footer { background: #0f5959; padding: 2em 0; color: #17a697; }
 .site-footer p, .footer-links { font-size: 12px; }
 .footer-links a { color: #17a697; }
 .footer-links a:hover { color: #fff; }
+
+
+.orbit-timer {
+left: -10000px;
+top: auto;
+height: 1px;
+overflow: hidden;
+position: absolute;
+width: 1px;
+}
