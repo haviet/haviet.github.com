@@ -1,11 +1,4 @@
-html { 
-	background: url('img/sitebg2.jpg') no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	z-index:-99;
-}
+
 body { z-index:-9; }
 
 
