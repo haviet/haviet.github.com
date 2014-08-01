@@ -21,8 +21,8 @@ section.row-alpha { }
 .slideshow-inner { width:100%; position:absolute; bottom:0px; left:0px; }
 .home-logo { width:60px; }
 .home-nav { width:100%; position:relative; top:20px; }
-.home-nav h1 { font-size:18px; }
-.home-nav  a { color:#fff; }
+.home-nav h1, .page-header h1 { font-size:18px; }
+.home-nav  a, .page-header a { color:#fff; }
 .home-menu { margin-top: 24px; font-size:14px; }
 
 section.row-beta { background:#0f5959; padding:5em 0 8em; color:#fff; }
@@ -72,3 +72,7 @@ width: 1px;
 .reveal-modal {
 top:3em;
 }
+
+/* ===================== page ======================== */
+.page-header { background:#0f5959; padding: 2em 0 1em; }
+.page-content { background:rgba(255,255,255,0.9); height:1000px; }

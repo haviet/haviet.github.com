@@ -2,37 +2,23 @@
 <div class="columns">
 		
 	<ul class="small-block-grid-2 medium-block-grid-3">
+	{% for weight in (1..10) %}
+	{% for page in site.pages %}
+	{% if page.tags == "prdlist" %}
+	{% if page.s == weight %}
 		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Biển tấm lớn</div>
+		<a href="{{ page.url }}">
+			<img src="{{ page.preview }}">
+			<div class="splist-caption clearfix">
+				<div class="left">{{ page.title }}</div>
+				<div class="right"><i class="fa fa-info-circle"></i></div>
+			</div>
+		</a>
 		</li>
-
-		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Trạm trung chuyển</div>
-		</li>
-
-		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Biển dải phân cách</div>
-		</li>
-
-		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Biển nhà chờ bus</div>
-		</li>
-
-		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Biển công trình công cộng</div>
-		</li>
-
-		<li>
-			<img src="http://placehold.it/360x280">
-			<div class="splist-caption">Biển cột quay</div>
-		</li>
-
-
+	{% endif %}
+	{% endif %}
+	{% endfor %}
+	{% endfor %}
 	</ul>
 	
 </div>
