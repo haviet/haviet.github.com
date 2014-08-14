@@ -3,3 +3,4 @@ _site
 *.ini
 *.db
 _config.yml
+.sass-cache
