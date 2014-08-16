@@ -1,0 +1,21 @@
+$w: 80%;
+$wmax: 960px;
+$fstcolor: #090;
+$sndcolor: #f00;
+
+%link {
+	text-decoration: none;
+	color: $fstcolor;
+	&:hover {
+		color: $sndcolor;
+		border-color: $sndcolor;
+	}
+}
+
+%inner { 
+	width: $w; 
+	max-width: $wmax; 
+	margin: 0 auto;
+	position: relative;
+	@media screen and (orientation: portrait) { width: 90%; }
+}

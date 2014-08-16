@@ -4,6 +4,20 @@
 
 @import "_normalize";
 @import "_slick";
+@import "_globvar";
+
+//
+
+@import "_header-panel";
+
+@import "_intro-panel";
+
+@import "_info-panel";
+
+@import "_products-panel";
+
+@import "_services-panel";
+
 
 $primary-color: #090;
 
@@ -14,64 +28,22 @@ $mono: Cousine, monospace;
 $sans: 'Open Sans', helvetica, arial, san-serif;
 $basefont: 14px;
 
-$w: 80%;
-$wmax: 960px;
-
 
 body { font: $basefont $sans; line-height:1.8em; }
 h1, h2, h3, h4, h5 { margin: 0; padding: $basefont*1.5 0; }
 hr { margin: 0; padding: 0; }
 .tx-center { text-align: center; }
-a { 
-	text-decoration: none; 
-	color: $primary-color;
-	&:hover { color:#f00; }
-	header & { color:#fff;}
-}
 
-
-.header { 
-	padding-top: 2em;
-	.brand {
-		margin-left: -8px;
-		img { width: 64px; }
-	}
-}
 
 
 .inner { 
-	width: $w; 
-	max-width: $wmax; 
-	margin: 0 auto;
-	position: relative;
-	@media screen and (orientation: portrait) { width: 90%; }
+	@extend %inner
 }
 
 .section-content { 
 	background: $wtrans; 
-	padding: $basefont*2;
 }
 
-
-.hv-01 { 
-	background: rgba(0,60,50,0.7); 
-	.section-content { background: rgb(0,60,50); }
-	.hv-01-inner { 
-		padding: 8em 2em 6em;
-		color: #fff; 
-	}
-	.intro-title { padding: 1em 0 0; }
-	.intro-list {
-		list-style: none;
-		padding: 2em 0;
-		li { 
-			display: inline-block; 
-			a { color: $primary-color; border: 1px solid $primary-color; padding: 0.5em 1em; margin: 0.2em;
-				&:hover { color: #fff; border-color: #fff; }
-			}
-		}
-	}
-}
 
 .arrow-down-01 {
 	position: absolute;
@@ -98,49 +70,7 @@ a {
 
 
 
-.hv-02 {
-	.hv-02-inner {
-		padding: 8em 0 5em; 
-	}
-	.hvinfo { 
-		width: 15%;
-		display: inline-block;
-		img { width: 100%; }
-		@media screen and (orientation: portrait) {
-			width:25%;
-		}
-	}
-}
 
-.hv-03 {
-	background: rgba(0,0,0,0.1);
-	.hv-03-inner {
-		background: #eee;
-		padding: 5em 0; 
-	}
-	.prd-item { width: 25%; display: inline-block; margin: $basefont; 
-		img { width: 100%; }
-		@media screen and (orientation: portrait) { width: 40%; }
-	}
-}
-
-.hv-04 {
-	background: rgba(255,153,0,0.2);
-	.hv-04-inner { background: #f90; }
-	.svc-title { line-height: 1.2em; font-size: $basefont*3; }
-	.svc-item { 
-		width:27%; 
-		display: inline-block;
-		vertical-align: top; 
-		margin: $basefont*0.8;
-		p { font-size: $basefont*0.9; } 
-		img { width: 70%; }
-		@media screen and (orientation: portrait) { 
-			width: 80%; 
-			img { width: 50%; }
-		}
-	}
-}
 
 .hv-05 {
 	.hv-05-inner { 

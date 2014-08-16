@@ -1,0 +1,11 @@
+.hv-02-inner {
+	padding: 8em 0 5em; 
+	.hvinfo { 
+		width: 15%;
+		display: inline-block;
+		img { width: 100%; }
+		@media screen and (orientation: portrait) {
+			width:25%;
+		}
+	}
+}

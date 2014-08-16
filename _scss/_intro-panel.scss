@@ -1,0 +1,30 @@
+$bg: rgba(0,60,50,0.7);
+
+
+.hv-01 { 
+	background: $bg;
+	.section-content {
+		background: rgb(0,60,50);
+		padding: 8em 2em 6em;
+		color: #fff;
+	}
+	a { 
+		@extend %link; //from _globvar
+		padding: 0.5em 1em;
+		border: 1px solid $fstcolor;
+		&:hover { color:#fff; border-color: #fff; }
+	}
+}
+
+
+.intro-title { 
+	padding: 1em 0 0; 
+}
+
+.intro-list {
+	list-style: none;
+	padding: 2em 0;
+	li { 
+		display: inline-block;
+	}
+}
