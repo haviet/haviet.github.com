@@ -26,7 +26,9 @@ a {
 	text-decoration: none; 
 	color: $primary-color;
 	&:hover { color:#f00; }
+	header & { color:#fff;}
 }
+
 
 .header { 
 	padding-top: 2em;
@@ -42,7 +44,7 @@ a {
 	max-width: $wmax; 
 	margin: 0 auto;
 	position: relative;
-	@media screen and (max-width: 800px) { width: 90%; }
+	@media screen and (orientation: portrait) { width: 90%; }
 }
 
 .section-content { 
@@ -55,8 +57,19 @@ a {
 	background: rgba(0,60,50,0.7); 
 	.section-content { background: rgb(0,60,50); }
 	.hv-01-inner { 
-		padding: 10em 2em 7em;
-		.intro-title, .intro-text { color: #fff;}
+		padding: 8em 2em 6em;
+		color: #fff; 
+	}
+	.intro-title { padding: 1em 0 0; }
+	.intro-list {
+		list-style: none;
+		padding: 2em 0;
+		li { 
+			display: inline-block; 
+			a { color: $primary-color; border: 1px solid $primary-color; padding: 0.5em 1em; margin: 0.2em;
+				&:hover { color: #fff; border-color: #fff; }
+			}
+		}
 	}
 }
 
@@ -93,7 +106,7 @@ a {
 		width: 15%;
 		display: inline-block;
 		img { width: 100%; }
-		@media screen and (max-width: 800px) {
+		@media screen and (orientation: portrait) {
 			width:25%;
 		}
 	}
@@ -107,14 +120,14 @@ a {
 	}
 	.prd-item { width: 25%; display: inline-block; margin: $basefont; 
 		img { width: 100%; }
-		@media screen and (max-width: 800px) { width: 40%; }
+		@media screen and (orientation: portrait) { width: 40%; }
 	}
 }
 
 .hv-04 {
 	background: rgba(255,153,0,0.2);
 	.hv-04-inner { background: #f90; }
-	.svc-title { line-height: 1.4em; font-size: $basefont*3; }
+	.svc-title { line-height: 1.2em; font-size: $basefont*3; }
 	.svc-item { 
 		width:27%; 
 		display: inline-block;
@@ -122,7 +135,7 @@ a {
 		margin: $basefont*0.8;
 		p { font-size: $basefont*0.9; } 
 		img { width: 70%; }
-		@media screen and (max-width: 800px) { 
+		@media screen and (orientation: portrait) { 
 			width: 80%; 
 			img { width: 50%; }
 		}

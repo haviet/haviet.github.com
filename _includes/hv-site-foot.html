@@ -35,7 +35,13 @@
   "{{ site.baseurl }}/hv-assets/imgs/{{ hbg.url }}",
 {% endfor %}
 {% endcapture %}
-<script type="text/javascript">
-	$(".outer-slide").backstretch([ {{ headbg }} ], {duration: 5000, fade: 1000});
-</script>
+	<script type="text/javascript">
+		$(".outer-slide").backstretch([ {{ headbg }} ], {duration: 5000, fade: 1000});
+	</script>
+	{% else %}
+	<script type="text/javascript">
+		$(".outer-slide").backstretch([ 
+			"https://dl.dropboxusercontent.com/u/335478/wpp/fence-wallpaper-hd-31688-32422-hd-wallpapers.jpg"
+		 ], {duration: 5000, fade: 1000});
+	</script>
 {% endif %}
