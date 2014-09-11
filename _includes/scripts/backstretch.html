@@ -1,3 +1,5 @@
+<!-- jquery backstretch, should use CDN version for production -->
+
 <script src="{{ site.baseurl }}/hv-assets/js/backstretch.min.js"></script>
 
 {% if page.background %}
@@ -14,11 +16,11 @@
 
 
 {% if page.headerbg %}
-{% capture headbg %}
-{% for hbg in page.headerbg %}
-  "{{ site.baseurl }}/hv-assets/imgs/{{ hbg.url }}",
-{% endfor %}
-{% endcapture %}
+	{% capture headbg %}
+		{% for hbg in page.headerbg %}
+		  "{{ site.baseurl }}/hv-assets/imgs/{{ hbg.url }}",
+		{% endfor %}
+	{% endcapture %}
 	<script type="text/javascript">
 		$(".outer-slide").backstretch([ {{ headbg }} ], {duration: 5000, fade: 1000});
 	</script>

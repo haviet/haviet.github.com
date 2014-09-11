@@ -3,13 +3,49 @@ $wmax: 960px;
 $fstcolor: #090;
 $sndcolor: #f00;
 
-%link {
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
+@mixin button($c1,$c2) {
 	text-decoration: none;
-	color: $fstcolor;
+	padding: 0.5em 1em;
+	color: $c1;
+	border: 1px solid $c1;
+	@include transition(all, 0.3s, ease-out);
 	&:hover {
-		color: $sndcolor;
-		border-color: $sndcolor;
+		color: $c2;
+		border-color: $c2;
 	}
+}
+
+// just up and down only
+@mixin arrow($size,$direction,$color) {
+	width: 0;
+	height: 0;
+	position: absolute;
+	left: 50%;
+	margin-left: -$size;
+	border-right: $size solid transparent;
+	border-left: $size solid transparent;
+	@if $direction == up {
+		border-bottom: $size solid $color;
+	}
+	@if $direction == down {
+		border-top: $size solid $color;
+	}
+}
+
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 %inner { 

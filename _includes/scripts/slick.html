@@ -1,0 +1,14 @@
+<!-- slick slideshow, should use CDN version for production -->
+<script type="text/javascript" src="{{ site.baseurl }}/hv-assets/js/slick.min.js"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.home-slideshow').slick({
+        	autoplay: true,
+        	autoplaySpeed: 5000,
+        	speed: 1000,
+        	dots: true
+        });
+    });
+</script>

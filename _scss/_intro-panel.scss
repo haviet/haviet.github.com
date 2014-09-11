@@ -8,12 +8,6 @@ $bg: rgba(0,60,50,0.7);
 		padding: 8em 2em 6em;
 		color: #fff;
 	}
-	a { 
-		@extend %link; //from _globvar
-		padding: 0.5em 1em;
-		border: 1px solid $fstcolor;
-		&:hover { color:#fff; border-color: #fff; }
-	}
 }
 
 

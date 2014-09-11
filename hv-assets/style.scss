@@ -8,8 +8,6 @@
 
 //
 
-@import "_header-panel";
-
 @import "_intro-panel";
 
 @import "_info-panel";
@@ -30,15 +28,78 @@ $basefont: 14px;
 
 
 body { font: $basefont $sans; line-height:1.8em; }
-h1, h2, h3, h4, h5 { margin: 0; padding: $basefont*1.5 0; }
+h2, h3, h4, h5 { margin: 0; padding: $basefont*1.5 0; }
 hr { margin: 0; padding: 0; }
 .tx-center { text-align: center; }
-
-
 
 .inner { 
 	@extend %inner
 }
+
+/* ======================================================= header === */
+.header {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	@include clearfix;
+	.header-brand {
+		width: 45%;
+		float: left;
+		img {
+			display: block;
+			width: 72px;
+			float:left;
+			margin-right: 10px;
+			margin-left: -10px;
+		}
+		.brand {
+			font-size: 40px;
+			font-weight: 300;
+		}
+		a { 
+			display: inline-block;
+			text-decoration: none;
+			color: #090;
+			@include transition(all, 0.3s, ease-out);
+			&:hover {
+				color: #fff;
+			}
+		}
+
+	}
+	.header-nav {
+		width: 50%;
+		float: right;
+		text-align: right;
+		.btn {
+			@include button(#f90,#fff)
+		}
+	}
+	@media screen and (orientation: portrait) {
+		.header-brand {
+			width:100%;
+			float:none;
+			text-align: center;
+			img {
+				float: none;
+				margin: 0 auto;
+			}
+		}
+		.header-nav {
+			width: 100%;
+			float:none;
+			text-align:center;
+		}
+
+	}
+}
+
+.nav-list {
+	list-style: none;
+	margin-top: 30px;
+	padding: 0;
+}
+
+/* ====================================================== content === */
 
 .section-content { 
 	background: $wtrans; 
@@ -46,26 +107,13 @@ hr { margin: 0; padding: 0; }
 
 
 .arrow-down-01 {
-	position: absolute;
-	left: 50%;
-	margin-left:-30px; 
-	width: 0; 
-	height: 0; 
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-top: 30px solid rgb(0,60,50);
+	//arrow (size,direction,color)
+	@include arrow(50px,down,#f00);
 }
 
 .arrow-up-01 {
-	position: absolute;
+	@include arrow(30px,up,#090);
 	bottom: 0px;
-	left: 50%;
-	margin-left:-30px; 
-	width: 0; 
-	height: 0; 
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent;
-	border-bottom: 30px solid #f90;
 }
 
 
@@ -101,4 +149,15 @@ hr { margin: 0; padding: 0; }
 			}
 		}
 	}
+}
+
+//temporary
+.home-slideshow {
+	height:400px;
+	background-color: #fff;
+}
+
+.btn {
+	// button(color1,color2)
+	@include button(#090,#fff);
 }
