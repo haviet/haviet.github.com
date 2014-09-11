@@ -19,5 +19,5 @@ permalink: pretty
 
 # I prefer to use sass
 sass:
-  sass_dir: _scss
+  sass_dir: _sass
   style: :compact
