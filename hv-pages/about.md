@@ -1,9 +1,9 @@
 ---
-layout: post
+layout: page
 title: Giới thiệu
 tags: topnav
 pos: 00
 permalink: /about/
 ---
-#trang gioi thieu
-{{ page.title }}
+#{{ page.title }}
+and the page permalink is **{{ page.url }}**

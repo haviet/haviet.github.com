@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Liên hệ
 tags: topnav
 pos: 02

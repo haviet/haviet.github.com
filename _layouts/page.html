@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+{% include hv-site-head.html %}
+<body>
+<main>
+<!-- site start -->
+	{% include hv-page-header.html %}
+	
+	<section class="outer single-page">
+		<div class="inner single-page-content">
+			{{ content }}
+		</div>
+	</section>
+
+	{% include hv-home-footer.html %}
+<!-- site end -->
+</main>
+{% include scripts/jquery1.11.1.html %}
+{% include scripts/velocity.html %}
+{% include scripts/slick.html %}
+{% include scripts/backstretch.html %}
+</body>
+</html>

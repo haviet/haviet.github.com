@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Sản phẩm tiêu biểu
 tags: topnav
 pos: 01

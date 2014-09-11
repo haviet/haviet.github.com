@@ -1,4 +1,4 @@
-$w: 83%;
+$w: 90%;
 $wmax: 960px;
 $fstcolor: #090;
 $sndcolor: #f00;
@@ -53,5 +53,5 @@ $sndcolor: #f00;
 	max-width: $wmax; 
 	margin: 0 auto;
 	position: relative;
-	@media screen and (orientation: portrait) { width: 90%; }
+	@media screen and (orientation: portrait) { width: 95%; }
 }
