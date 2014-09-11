@@ -14,7 +14,6 @@
 
 @import "_products-panel";
 
-@import "_services-panel";
 
 
 $primary-color: #090;
@@ -70,6 +69,7 @@ hr { margin: 0; padding: 0; }
 		width: 50%;
 		float: right;
 		text-align: right;
+		li { display: inline-block; }
 		.btn {
 			@include button(#f90,#fff)
 		}
@@ -108,16 +108,37 @@ hr { margin: 0; padding: 0; }
 
 .arrow-down-01 {
 	//arrow (size,direction,color)
-	@include arrow(50px,down,#f00);
+	@include arrow(30px,down,#003C32);
 }
 
 .arrow-up-01 {
-	@include arrow(30px,up,#090);
+	@include arrow(30px,up,#f90);
 	bottom: 0px;
 }
 
 
+.hv-04 {
+	background: rgba(255,153,0,0.2);
+}
+.hv-04-inner { 
+	background: #f90;
+	padding: 50px 0;
+}
+	
+.svc-title { line-height: 1.2em; font-size: 3em; }
 
+.svc-item { 
+	width:27%; 
+	display: inline-block;
+	vertical-align: top; 
+	margin: 10px;
+	font-size: 12px;
+	img { width: 70%; }
+	@media screen and (orientation: portrait) { 
+		width: 80%; 
+		img { width: 50%; }
+	}
+}
 
 
 .hv-05 {
@@ -153,7 +174,7 @@ hr { margin: 0; padding: 0; }
 
 //temporary
 .home-slideshow {
-	height:400px;
+	height:450px;
 	background-color: #fff;
 }
 

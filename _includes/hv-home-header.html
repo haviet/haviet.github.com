@@ -10,7 +10,8 @@
 
 			<div class="header-nav">
 				<ul class="nav-list">
-				{% for sp in site.pages | sort: 'pos' %}
+				{% assign plist = site.pages | sort:'pos' %}
+				{% for sp in plist %}
 				{% if sp.tags == 'topnav' %}
 					<li class="list-item">
 						<a {% if sp.url == page.url %}class="btn active"{% else %}class="btn"{% endif %} href="{{ sp.url }}">{{ sp.title }}</a>
