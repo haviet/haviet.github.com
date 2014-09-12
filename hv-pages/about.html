@@ -6,11 +6,18 @@ pos: 00
 permalink: /about/
 
 background:
-- url: bg07.svg
-- url: bg11.svg
+- url: /hv-assets/imgs/bg07.svg
+- url: /hv-assets/imgs/bg11.svg
 
-bg: bg06.svg
+bg: /hv-assets/imgs/hpic01.jpg
 ---
+
+<section class="outter bg-white-trans">
+    <div class="inner bgwhite page-jumbo tx-center">
+    <p class="big-text">Kinh nghiệm 20 năm cung cấp dịch vụ.<br>Hà Việt luôn đáp ứng tốt mọi nhu cầu của khách hàng.</p>
+    </div>
+</section>
+
 <section class="outer">
     <div class="inner bgwhite page-content">
         <h2>{{ page.title }}</h2>
@@ -19,7 +26,8 @@ bg: bg06.svg
 </section>
 
 <section class="outer">
-    <div class="inner about-prd-list tx-center">
+    <div class="inner prd-block bgyellow tx-center">
+        <h2>Các sản phẩm Hà Việt đang kinh doanh</h2>
         {% include content-blocks/products_list.html %}
     </div>
 </section>

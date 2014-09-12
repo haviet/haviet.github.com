@@ -1,0 +1,82 @@
+---
+layout: home
+title: Sản phẩm tiêu biểu
+tags: topnav
+pos: 01
+permalink: /products/
+
+background:
+- url: /hv-assets/imgs/bg04.svg
+- url: /hv-assets/imgs/bg08.svg
+
+headerbg:
+- url: /hv-assets/imgs/blur01.jpg
+- url: /hv-assets/imgs/blur02.jpg
+- url: /hv-assets/imgs/blur03.jpg
+
+slideshow:
+- slide: /hv-assets/imgs/n4.jpg
+- slide: /hv-assets/imgs/n2.jpg
+---
+
+<section class="outter bg-green-trans">
+    <div class="inner bg-hvgreen page-jumbo tx-center">
+    <p class="big-text tx-white">Sản phẩm đa dạng, vùng phủ rộng khắp.</p>
+    </div>
+</section>
+
+
+<section class="outer">
+    <div class="inner">
+        <div class="arrow-down-03"></div>
+        <div class="product-list">
+        {% for post in site.posts %}
+            {% if post.kind == "prdlist" %}
+                <div class="prd clear {{ post.class }}">
+                    <div class="{{ post.class }}-img {{ post.img_pull }}"><img src="{{ post.postimage_url }}"></div>
+                    <div class="{{ post.class }}-content {{ post.cnt_pull }} tx-center">
+                        <h3>{{ post.title }}</h3>
+                        <p>{{ post.desc }}</p>
+
+                        {% if post.detail %}
+                            <p class="more"><a class="prd-btn" href="{{ post.url }}">chi tiết</a></p>
+                        {% endif %}
+
+
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</section>
+
+
+<section class="outer">
+    <div class="inner bg-black-trans">
+        <div class="selling tx-center">
+            <p class="big-text tx-white">Đặt hàng quảng cáo, xin liên hệ 090 909 0099</p>
+        </div>
+    <div class="arrow-up-01"></div>
+    </div>
+</section>
+
+
+
+<section class="outer">
+    <div class="inner bgyellow tx-center service-block">
+        <h1 class="svc-title">Những đặc điểm chính<br><small>trong hệ thống dịch vụ của Hà Việt</small></h1>
+        {% include content-blocks/services_list.html %}
+    </div>
+</section>
+
+<section class="outer hv-06">
+    <div class="inner tx-center">
+        <div class="section-content hv-06-inner">
+            <div class="ctc-block">
+                {% include content-blocks/footer_contact_block.html %}
+            </div>
+        </div>
+    </div>
+</section>
+

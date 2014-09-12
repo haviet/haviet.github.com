@@ -4,7 +4,7 @@ $bg: rgba(0,60,50,0.7);
 .hv-01 { 
 	background: $bg;
 	.section-content {
-		background: #003C32;
+		background: $hvgreen;
 		padding: 8em 2em 6em;
 		color: #fff;
 	}

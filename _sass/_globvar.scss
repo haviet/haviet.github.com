@@ -1,8 +1,22 @@
-$w: 90%;
-$wmax: 960px;
+//colors
+$hvgreen: #003C32;
+$hvyellow: #FBC900;
+$hvlightgreen: #DCFAFA;
+$hvlightgrey: #eee;
 $fstcolor: #090;
 $sndcolor: #f00;
 
+//page width
+$w: 90%;
+$wmax: 960px;
+
+//fonts
+$mono: Cousine, monospace;
+$sans: 'Open Sans', helvetica, arial, san-serif;
+$basefont: 14px;
+
+//mixin
+//css transition
 @mixin transition($transition-property, $transition-time, $method) {
     -webkit-transition: $transition-property $transition-time $method;
     -moz-transition: $transition-property $transition-time $method;
@@ -10,7 +24,7 @@ $sndcolor: #f00;
     -o-transition: $transition-property $transition-time $method;
     transition: $transition-property $transition-time $method;
 }
-
+//button
 @mixin button($c1,$c2) {
 	text-decoration: none;
 	padding: 0.5em 1em;
@@ -22,8 +36,8 @@ $sndcolor: #f00;
 		border-color: $c2;
 	}
 }
-
-// just up and down only
+//arrow
+//just up and down only
 @mixin arrow($size,$direction,$color) {
 	width: 0;
 	height: 0;
@@ -39,7 +53,7 @@ $sndcolor: #f00;
 		border-top: $size solid $color;
 	}
 }
-
+//clearfix
 @mixin clearfix {
   &:after {
     content: "";
