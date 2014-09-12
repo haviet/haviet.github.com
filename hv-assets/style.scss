@@ -30,6 +30,8 @@ body { font: $basefont $sans; line-height:1.8em; }
 h2, h3, h4, h5 { margin: 0; padding: $basefont*1.5 0; }
 hr { margin: 0; padding: 0; }
 .tx-center { text-align: center; }
+.bgwhite { background: #fff; }
+.bgyellow { background: #fc0; }
 
 .inner { 
 	@extend %inner
@@ -116,6 +118,43 @@ hr { margin: 0; padding: 0; }
 	bottom: 0px;
 }
 
+/* ===================================================================== single page */
+
+.page-top {
+	background: #fff;
+	height: 400px;
+	overflow: hidden;
+	img {
+		max-width:100%;
+	}
+}
+
+.about-prd-list {
+	padding: 5em 0;
+	background: #fc0;
+}
+
+.page-content {
+	padding: 3em 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hv-04 {
 	background: rgba(255,153,0,0.2);
@@ -176,6 +215,7 @@ hr { margin: 0; padding: 0; }
 .home-slideshow {
 	height:450px;
 	background-color: #fff;
+	overflow: hidden;
 }
 
 .btn {

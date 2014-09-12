@@ -6,7 +6,10 @@
 	padding: 5em 0;
 }
 
-.prd-item { width: 25%; display: inline-block; margin: 10px; 
+.prd-item { 
+	width: 25%;
+	display: inline-block;
+	margin: 10px;
 	img { width: 100%; }
 	@media screen and (orientation: portrait) { width: 40%; }
 }

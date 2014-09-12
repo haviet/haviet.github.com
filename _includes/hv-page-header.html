@@ -23,6 +23,14 @@
 
 		</div>
 
+	    <div class="page-top">
+        	{% if page.bg %}
+            	<img src="{{ site.baseurl }}/hv-assets/imgs/{{ page.bg }}">
+            {% else %}
+            	<img src="{{ site.baseurl }}/hv-assets/imgs/bg01.svg">
+            {% endif %}
+	    </div>
+
 	</div>
 </header>
 </section>

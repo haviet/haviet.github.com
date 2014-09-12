@@ -61,14 +61,7 @@ slideshow:
 	<div class="inner tx-center">
 		<div class="section-content hv-03-inner">
 			<h2>Các sản phẩm Hà Việt đang kinh doanh</h2>
-			<div class="prd-block">
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-				<div class="prd-item"><img src="http://placehold.it/300" /></div>
-			</div>
+			{% include content-blocks/products_list.html %}
 		</div>
 		<div class="arrow-up-01"></div>
 	</div>
@@ -78,30 +71,9 @@ slideshow:
 <section class="outer hv-04">
 	<div class="inner tx-center">
 		<div class="section-content hv-04-inner">
-
 			<h1 class="svc-title">Những đặc điểm chính<br><small>trong hệ thống dịch vụ của Hà Việt</small></h1>
-
 			<div class="svc-block">
-
-				<div class="svc-item tx-center">
-					<img src="{{ site.baseurl }}/hv-assets/imgs/dvhv-01.svg" />
-					<h3>Hỗ trợ thiết kế</h3>
-					<p>Hà Việt có đội ngũ thiết kế thạo nghề, kinh nghiệm lâu năm trong lĩnh vực thiết kế quảng cáo, sẵn sàng tư vấn cho khách hàng lựa chọn phương án thiết kế và vật liệu phù hợp nhất.</p>
-				</div>
-
-				<div class="svc-item tx-center">
-					<img src="{{ site.baseurl }}/hv-assets/imgs/dvhv-02.svg" />
-					<h3>Vệ sinh định kỳ</h3>
-					<p>Hệ thống biển của Hà Việt luôn được vệ sinh định kỳ, đảm bảo không lấm bẩn, không xộc xệch... Hệ thống đèn chiếu sáng được kiểm tra và duy tu thường xuyên, các vị trí luôn duy trì đủ số giờ thắp sáng ban đêm.</p>
-				</div>
-
-				<div class="svc-item tx-center">
-					<img src="{{ site.baseurl }}/hv-assets/imgs/dvhv-03.svg" />
-					<h3>Sửa chữa nhanh</h3>
-					<p>Mọi hư hỏng luôn được khắc phục trong thời gian ngắn nhất. Thông thường trong vòng 24 giờ sau sự cố, đội sửa chữa nhanh sẽ có mặt để kiểm tra và khắc phục ngay lập tức.</p>
-				</div>
-
-
+				{% include content-blocks/services_list.html %}
 			</div>
 		</div>
 	</div>
@@ -134,25 +106,7 @@ slideshow:
 	<div class="inner tx-center">
 		<div class="section-content hv-06-inner">
 			<div class="ctc-block">
-
-				<div class="ctc-item">
-					<p class="cticon"><i class="fa fa-phone-square fa-5x"></i></p>
-					<h4>Hotline</h4>
-					<p class="ctc-text">+84 04 3823 8643<br>+84 04 3829 3519</p>
-				</div>
-
-				<div class="ctc-item">
-					<p class="cticon"><i class="fa fa-map-marker fa-5x"></i></p>
-					<h4>Office</h4>
-					<p class="ctc-text">25/D3, Vuon Dao Villa,<br>Lac Long Quan Rd., Phu Thuong<br>Tay Ho Dist., Hanoi</p>
-				</div>
-
-				<div class="ctc-item">
-					<p class="cticon"><i class="fa fa-envelope fa-5x"></i></p>
-					<h4>Email</h4>
-					<p class="ctc-text">info@haviet.com<br>hcns@haviet.com</p>
-				</div>
-
+				{% include content-blocks/footer_contact_block.html %}
 			</div>
 		</div>
 	</div>
