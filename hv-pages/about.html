@@ -9,6 +9,10 @@ background:
 - url: /hv-assets/imgs/bg07.svg
 - url: /hv-assets/imgs/bg11.svg
 
+headerbg:
+- url: /hv-assets/imgs/blur02.jpg
+- url: /hv-assets/imgs/blur06.jpg
+
 bg: /hv-assets/imgs/hpic01.jpg
 ---
 
@@ -19,16 +23,22 @@ bg: /hv-assets/imgs/hpic01.jpg
 </section>
 
 <section class="outer">
-    <div class="inner bgwhite page-content">
+    <div class="inner bgwhite page-content tx-center">
         <h2>{{ page.title }}</h2>
-        <p>and the page permalink is {{ page.url }}</p>
+        <p>Under construction...</p>
+        <p><i class="fa fa-refresh fa-spin"></i></p>
     </div>
 </section>
 
-<section class="outer">
+<section class="outer hv-03">
     <div class="inner prd-block bgyellow tx-center">
         <h2>Các sản phẩm Hà Việt đang kinh doanh</h2>
         {% include content-blocks/products_list.html %}
+    </div>
+</section>
+
+<section class="outer hvmap">
+    <div class="inner map">
     </div>
 </section>
 

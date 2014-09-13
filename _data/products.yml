@@ -1,0 +1,24 @@
+- name: Biển tấm lớn
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/billboard.jpg
+
+- name: Dải phân cách
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/lightbox.jpg
+
+- name: Trạm trung chuyển bus
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/bus-terminal.jpg
+
+- name: Nhà chờ bus
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/bus-shelter.jpg
+
+- name: Điểm dừng bus
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/bus.jpg
+
+- name: Công trình công cộng
+  linkto: /products/
+  preview: /hv-assets/imgs/h_preview/public-rsr.jpg
+

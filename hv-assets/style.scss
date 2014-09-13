@@ -12,7 +12,6 @@
 
 @import "_info-panel";
 
-@import "_products-panel";
 
 
 
@@ -94,17 +93,48 @@ hr { margin: 0; padding: 0; }
 .page-content {
 	padding: 3em 0;
 }
-
+/* ====================================================================== prd block */
 .prd-block, .service-block {
 	padding: 5em 0;
+}
+
+.prd-block {
+	background: #ccc;
+}
+
+.hv-03 {
+	background: rgba(0,0,0,0.3);
+}
+
+.prd-item { 
+	width: 25%;
+	display: inline-block;
+	margin: 10px;
+	border: 5px solid #fff;
+	img { width: 100%; }
+	@media screen and (orientation: portrait) { width: 40%; }
+
+	a {
+		display: block;
+		background: $hvyellow;
+		text-decoration: none;
+		color: #fff;
+		@include transition(all, 0.3s, ease-out);
+		&:hover {
+			background: #fff;
+			color: $primary-color;
+		}
+	}
+}
+
+/* ===================================================================== product list page */
+.prd-outer {
+	background: rgba(255,255,255,0.7);
 }
 
 .product-list {
 	padding: 5em 0 8em;
 }
-
-
-/* ===================================================================== product list page */
 
 .billboard,
 .lightbox,
@@ -114,7 +144,7 @@ hr { margin: 0; padding: 0; }
 .kiosk,
 .others {
 	line-height: 0.8;
-	margin-top: 1em;
+	margin-top: 2em;
 	border-bottom: 5px solid #fff;
 	&-img {
 		width: 68%;
@@ -171,7 +201,7 @@ hr { margin: 0; padding: 0; }
 
 .more { padding-top: 2em; }
 .prd-btn {
-	@include button($hvlightgreen,#fff)
+	@include button($hvyellow,#fff)
 }
 
 

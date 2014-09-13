@@ -19,7 +19,7 @@
 		a { 
 			display: inline-block;
 			text-decoration: none;
-			color: $hvlightgreen;
+			color: $hvyellow;
 			@include transition(all, 0.3s, ease-out);
 			&:hover {
 				color: #fff;
@@ -33,7 +33,7 @@
 		text-align: right;
 		li { display: inline-block; }
 		.btn {
-			@include button($hvlightgreen,#fff)
+			@include button($hvyellow,#fff)
 		}
 	}
 	@media screen and (orientation: portrait) {
