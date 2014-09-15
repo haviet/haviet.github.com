@@ -30,16 +30,16 @@ slideshow:
     <div class="inner">
         <div class="arrow-down-03"></div>
         <div class="product-list">
-        {% for post in site.posts %}
-            {% if post.kind == "prdlist" %}
-                <div class="prd clear {{ post.class }}">
-                    <div class="{{ post.class }}-img {{ post.img_pull }}"><img src="{{ post.postimage_url }}"></div>
-                    <div class="{{ post.class }}-content {{ post.cnt_pull }} tx-center">
-                        <h3>{{ post.title }}</h3>
-                        <p>{{ post.desc }}</p>
+        {% for page in site.pages %}
+            {% if page.kind == "prdlist" %}
+                <div class="prd clear {{ page.class }}">
+                    <div class="{{ page.class }}-img {{ page.img_pull }}"><img src="{{ page.postimage_url }}"></div>
+                    <div class="{{ page.class }}-content {{ page.cnt_pull }} tx-center">
+                        <h3>{{ page.title }}</h3>
+                        <p>{{ page.desc }}</p>
 
-                        {% if post.detail %}
-                            <p class="more"><a class="prd-btn" href="{{ post.url }}">chi tiết</a></p>
+                        {% if page.detail %}
+                            <p class="more"><a class="prd-btn" href="{{ page.url }}">chi tiết</a></p>
                         {% endif %}
 
 
