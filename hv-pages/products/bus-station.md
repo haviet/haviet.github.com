@@ -8,6 +8,7 @@ cnt_pull: left
 title: Quảng cáo trên trạm trung chuyển hành khách
 postimage_url: '/hv-assets/imgs/h_preview/bus-terminal2.jpg'
 desc: hệ thống phối hợp bởi nhiều loại biển khác nhau...
+pos: 03
 detail: true
 ---
 

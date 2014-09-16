@@ -7,6 +7,7 @@ cnt_pull: left
 
 title: Các loại quảng cáo khác
 postimage_url: '/hv-assets/imgs/h_preview/rooftopads.jpg'
+pos: 07
 desc: 'Biển nóc toà nhà, kios đa năng, điểm dừng bus...'
 ---
 

@@ -7,6 +7,7 @@ cnt_pull: left
 
 title: Quảng cáo trên phương tiện giao thông
 postimage_url: '/hv-assets/imgs/h_preview/bus2.jpg'
+pos: 05
 desc: Quảng cáo trên xe và tại các điểm dừng đỗ. Mọi lúc mọi nơi...
 ---
 

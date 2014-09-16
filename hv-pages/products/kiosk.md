@@ -7,6 +7,7 @@ cnt_pull: right
 
 title: Quảng cáo trên công trình công cộng
 postimage_url: '/hv-assets/imgs/h_preview/public-rsr2.jpg'
+pos: 06
 desc: '170 vị trí trên hệ thống nhà vệ sinh công cộng rải rác khắp Hà Nội...'
 ---
 

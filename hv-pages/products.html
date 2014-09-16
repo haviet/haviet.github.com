@@ -30,7 +30,8 @@ slideshow:
     <div class="inner">
         <div class="arrow-down-03"></div>
         <div class="product-list">
-        {% for page in site.pages %}
+        {% assign plist = site.pages | sort:'pos' %}
+        {% for page in plist %}
             {% if page.kind == "prdlist" %}
                 <div class="prd clear {{ page.class }}">
                     <div class="{{ page.class }}-img {{ page.img_pull }}"><img src="{{ page.postimage_url }}"></div>
@@ -41,8 +42,6 @@ slideshow:
                         {% if page.detail %}
                             <p class="more"><a class="prd-btn" href="{{ page.url }}">chi tiết</a></p>
                         {% endif %}
-
-
                     </div>
                 </div>
             {% endif %}

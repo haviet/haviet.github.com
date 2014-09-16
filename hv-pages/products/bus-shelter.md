@@ -8,6 +8,7 @@ cnt_pull: right
 title: Quảng cáo trên hệ thống nhà chờ bus Hà Nội
 postimage_url: '/hv-assets/imgs/h_preview/bus-shelter2.jpg'
 desc: Vừa tầm mắt, dễ nhìn dễ thấy.
+pos: 04
 detail: true
 ---
 

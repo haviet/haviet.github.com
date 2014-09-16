@@ -8,6 +8,7 @@ cnt_pull: right
 title: Biển trên dải phân cách
 postimage_url: '/hv-assets/imgs/h_preview/lightbox2.jpg'
 desc: sẵn sàng suốt ngày đêm...
+pos: 02
 detail: true
 ---
 
