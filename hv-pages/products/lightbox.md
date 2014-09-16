@@ -12,7 +12,37 @@ pos: 02
 detail: true
 ---
 
-<h1>{{ page.title }}</h1>
+<div class="product-desc bgyellow tx-center">
+    <h1>Hệ thống biển trên dải phân cách</h1>
+    <p>Đoạn giới thiệu ngắn về hệ thống hộp đèn trên dải phân cách...</p>
+</div>
 
-<p>Đang cập nhật, xin trở lại sau...</p>
+<div class="product-detail">
+    {% include prd_lightbox/dongda.html %}
+</div>
+
+<div class="product-detail">
+    {% include prd_lightbox/badinh.html %}
+</div>
+
+<div class="product-detail">
+    {% include prd_lightbox/tayho.html %}
+</div>
+
+<div class="product-detail">
+    {% include prd_lightbox/thanhxuan.html %}
+</div>
+
+
+<div class="product-detail">
+    {% include prd_lightbox/caugiay.html %}
+</div>
+
+<div class="product-detail">
+    {% include prd_lightbox/tuliem.html %}
+</div>
+
+
+
+
 <p style="font-size:60px;"><i class="fa fa-refresh fa-spin"></i></p>

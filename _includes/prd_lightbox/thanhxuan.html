@@ -1,0 +1,23 @@
+<h2>Quận Thanh Xuân</h2>
+<table class="table table-bordered">
+<thead>
+    <tr>
+        <th>Codename</th>
+        <th style="width:15%;">Street</th>
+        <th>Description</th>
+        <th style="width:15%;">Size</th>
+    </tr>
+</thead>
+<tbody>
+{% for lb_list in site.data.lightbox %}
+    {% if lb_list.district == "Thanh Xuân" %}
+    <tr>
+        <td>{{ lb_list.codename }}</td>
+        <td>{{ lb_list.street }}</td>
+        <td>{{ lb_list.description }}</td>
+        <td>{{ lb_list.sizew }}m x {{ lb_list.sizeh }}m</td>
+    </tr>
+    {% endif %}
+{% endfor %}
+</tbody>
+</table>
